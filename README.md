@@ -29,19 +29,24 @@ This is a Flask-based web application designed to showcase photography portfolio
    git clone https://github.com/NagaSravyaMadduri/Photography-webapp.git
 
 2. Navigate to the Project Directory
+   ```sh
    cd Photography-weapplication
 
-3. Create a Virtual Environment (optional but recommended) For Windows:
+4. Create a Virtual Environment (optional but recommended)
+   ```sh
+   For Windows:
    python -m venv myenv
    myenv\Scripts\Activate
-For MacOS/Linux:
+   For MacOS/Linux:
    python3 -m venv myenv
    source myenv/bin/activate
 
-4. Install Dependencies Make sure you have pip installed, then install the required packages:
+7. Install Dependencies Make sure you have pip installed, then install the required packages:
+   ```sh
    pip install -r requirements.txt
 
-5. Run the Application
+9. Run the Application
+    ```sh
    python app.py
 
 
